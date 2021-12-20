@@ -16,7 +16,7 @@ body {
 
 .header p {
     color: #F9FAF8;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
     margin: 0;
     padding: 1rem;
@@ -37,5 +37,48 @@ body {
 
 .hero-section {
     background-color: #1F2937;
-    height: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero-section p {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.hero-section .hero-left {
+    width: 400px;
+}
+
+.hero-section .hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.hero-section img {
+    width: 400px;
+    height: 300px;
+    pad: 1rem;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero-btn {
+    width: 100px;
+    height: auto;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 8px;
+    color: #F9FAF8;
+    font-weight: 600;
+    text-align: center;
 }
