@@ -37,7 +37,7 @@ body {
 
 .hero-section {
     background-color: #1F2937;
-    height: 500px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,4 +81,132 @@ body {
     color: #F9FAF8;
     font-weight: 600;
     text-align: center;
+}
+
+.img-section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.img-section .header {
+    margin-top: 2rem;
+    background-color: white;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.img-section .images {
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+}
+
+.img-section .img {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+}
+
+.img-section img {
+    border: none;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    height: 80px;
+    background-color: #1F2937;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    color:#E5E7EB;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0;
+    flex-direction: column;
+}
+
+.quote-section .main-text {
+    width: 60%;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.quote-section .author {
+    margin-top: 0;
+    width: 60%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    color: #1F2937
+}
+
+.call-to-action {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0;
+    flex-direction: column;
+    
+}
+
+.call-to-action .card {
+    width: 70%;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    gap: 2rem;
+}
+
+.call-to-action .header {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #3882F6;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.call-to-action p {
+    color: white;
+    background-color: #3882F6;
+    margin-top: 0;
+}
+
+.call-to-action .btn {
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 2rem;
+    margin-right: 2rem;
 }
